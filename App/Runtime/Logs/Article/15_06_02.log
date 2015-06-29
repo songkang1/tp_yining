@@ -1,0 +1,1346 @@
+[ 2015-06-02T09:39:55+08:00 ] 113.91.224.118 /index.php?s=/Article/Index/index/category/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `v_option` [ RunTime:0.0008s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'EMAIL' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'MOBILE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'PHONE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'ABOUT' AND `type` = 'index' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.008815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009246s ]
+SQL: SHOW COLUMNS FROM `v_article` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `v_article` WHERE `lang` LIKE 'zh' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: p /home/xiongjiang/www/App/Article/Controller/IndexController.class.php 第 32 行.
+SQL: SELECT * FROM `v_article` WHERE `lang` LIKE 'zh' ORDER BY `id` desc LIMIT 0,10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_article_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE (  meta_key='site_name' ) AND `lang` = 'zh' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_option` WHERE `meta_key` = 'meta' AND `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_product_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `v_product_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'QQ' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_page` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'support' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '11'  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'channel' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '10'  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'about' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '13'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 4 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 4 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000415s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 132 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 132 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 198 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 198 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002578s ]
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 49 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 61 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 68 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2015-06-02T09:49:31+08:00 ] 113.116.50.31 /index.php?s=/Article/Index/index/category/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `v_option` [ RunTime:0.0008s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'EMAIL' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'MOBILE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'PHONE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'ABOUT' AND `type` = 'index' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.010246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010679s ]
+SQL: SHOW COLUMNS FROM `v_article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `v_article_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh' AND `id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `v_article` WHERE `lang` LIKE 'zh' AND `category_id` LIKE '1' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: p /home/xiongjiang/www/App/Article/Controller/IndexController.class.php 第 32 行.
+SQL: SELECT * FROM `v_article` WHERE `lang` LIKE 'zh' AND `category_id` LIKE '1' ORDER BY `id` desc LIMIT 0,10   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE (  meta_key='site_name' ) AND `lang` = 'zh' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_option` WHERE `meta_key` = 'meta' AND `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_product_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `v_product_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'QQ' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_page` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'support' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '11'  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'channel' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '10'  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'about' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '13'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000414s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002583s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2015-06-02T09:57:31+08:00 ] 180.153.214.190 /index.php?s=/Article/Index/index/category/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `v_option` [ RunTime:0.0007s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'EMAIL' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'MOBILE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'PHONE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'ABOUT' AND `type` = 'index' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.009279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009922s ]
+SQL: SHOW COLUMNS FROM `v_article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `v_article_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh' AND `id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `v_article` WHERE `lang` LIKE 'zh' AND `category_id` LIKE '1' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: p /home/xiongjiang/www/App/Article/Controller/IndexController.class.php 第 32 行.
+SQL: SELECT * FROM `v_article` WHERE `lang` LIKE 'zh' AND `category_id` LIKE '1' ORDER BY `id` desc LIMIT 0,10   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE (  meta_key='site_name' ) AND `lang` = 'zh' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_option` WHERE `meta_key` = 'meta' AND `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_product_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `v_product_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'QQ' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_page` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'support' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '11'  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'channel' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '10'  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'about' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '13'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000393s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002510s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2015-06-02T09:57:34+08:00 ] 180.153.214.190 /index.php?s=/Article/Index/index/category/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `v_option` [ RunTime:0.0008s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'EMAIL' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'MOBILE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'PHONE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'ABOUT' AND `type` = 'index' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.009447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009887s ]
+SQL: SHOW COLUMNS FROM `v_article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `v_article_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh' AND `id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `v_article` WHERE `lang` LIKE 'zh' AND `category_id` LIKE '1' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: p /home/xiongjiang/www/App/Article/Controller/IndexController.class.php 第 32 行.
+SQL: SELECT * FROM `v_article` WHERE `lang` LIKE 'zh' AND `category_id` LIKE '1' ORDER BY `id` desc LIMIT 0,10   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE (  meta_key='site_name' ) AND `lang` = 'zh' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_option` WHERE `meta_key` = 'meta' AND `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_product_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `v_product_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'QQ' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_page` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'support' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '11'  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'channel' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '10'  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'about' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '13'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000518s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002952s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2015-06-02T10:59:54+08:00 ] 116.204.86.188 /index.php?s=/Article/Index/index/category/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `v_option` [ RunTime:0.0009s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'EMAIL' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'MOBILE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'PHONE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'ABOUT' AND `type` = 'index' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.010066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010646s ]
+SQL: SHOW COLUMNS FROM `v_article` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `v_article` WHERE `lang` LIKE 'zh' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: p /home/xiongjiang/www/App/Article/Controller/IndexController.class.php 第 32 行.
+SQL: SELECT * FROM `v_article` WHERE `lang` LIKE 'zh' ORDER BY `id` desc LIMIT 0,10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_article_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE (  meta_key='site_name' ) AND `lang` = 'zh' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_option` WHERE `meta_key` = 'meta' AND `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_product_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `v_product_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_page` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'support' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '11'  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'channel' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '10'  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'about' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '13'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 4 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 4 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000467s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 132 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 132 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 198 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 198 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002841s ]
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 49 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 61 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 68 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003950s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2015-06-02T11:03:15+08:00 ] 113.116.50.31 /index.php?s=/Article/Index/index/category/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `v_option` [ RunTime:0.0007s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'EMAIL' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'MOBILE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'PHONE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'ABOUT' AND `type` = 'index' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.009253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009730s ]
+SQL: SHOW COLUMNS FROM `v_article` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `v_article` WHERE `lang` LIKE 'zh' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: p /home/xiongjiang/www/App/Article/Controller/IndexController.class.php 第 32 行.
+SQL: SELECT * FROM `v_article` WHERE `lang` LIKE 'zh' ORDER BY `id` desc LIMIT 0,10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_article_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE (  meta_key='site_name' ) AND `lang` = 'zh' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_option` WHERE `meta_key` = 'meta' AND `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_product_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `v_product_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_page` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'support' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '11'  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'channel' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '10'  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'about' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '13'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 4 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 4 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000505s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 132 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 132 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 198 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 198 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003153s ]
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 49 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 61 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 68 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2015-06-02T11:03:15+08:00 ] 101.226.102.97 /index.php?s=/Article/Index/index/category/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `v_option` [ RunTime:0.0007s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'EMAIL' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'MOBILE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'PHONE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'ABOUT' AND `type` = 'index' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.008846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009379s ]
+SQL: SHOW COLUMNS FROM `v_article` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `v_article` WHERE `lang` LIKE 'zh' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: p /home/xiongjiang/www/App/Article/Controller/IndexController.class.php 第 32 行.
+SQL: SELECT * FROM `v_article` WHERE `lang` LIKE 'zh' ORDER BY `id` desc LIMIT 0,10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_article_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE (  meta_key='site_name' ) AND `lang` = 'zh' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_option` WHERE `meta_key` = 'meta' AND `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_product_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `v_product_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_page` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'support' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '11'  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'channel' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '10'  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'about' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '13'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 4 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 4 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000688s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 132 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 132 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 198 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 198 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002959s ]
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 49 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 61 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 68 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2015-06-02T11:10:35+08:00 ] 113.91.224.118 /index.php?s=/Article/Index/index/category/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `v_option` [ RunTime:0.0007s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'EMAIL' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'MOBILE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'PHONE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'ABOUT' AND `type` = 'index' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.008659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009079s ]
+SQL: SHOW COLUMNS FROM `v_article` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `v_article` WHERE `lang` LIKE 'zh' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: p /home/xiongjiang/www/App/Article/Controller/IndexController.class.php 第 32 行.
+SQL: SELECT * FROM `v_article` WHERE `lang` LIKE 'zh' ORDER BY `id` desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `v_article_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE (  meta_key='site_name' ) AND `lang` = 'zh' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_option` WHERE `meta_key` = 'meta' AND `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_product_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `v_product_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'QQ' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_page` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'support' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '11'  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'channel' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '10'  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'about' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '13'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 4 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 4 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000440s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 132 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 132 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 198 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 198 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002707s ]
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 49 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 61 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 68 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2015-06-02T11:23:24+08:00 ] 113.91.224.118 /index.php?s=/Article/Index/index/category/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `v_option` [ RunTime:0.0007s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'EMAIL' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'MOBILE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'PHONE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'ABOUT' AND `type` = 'index' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.009067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009573s ]
+SQL: SHOW COLUMNS FROM `v_article` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `v_article` WHERE `lang` LIKE 'zh' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: p /home/xiongjiang/www/App/Article/Controller/IndexController.class.php 第 32 行.
+SQL: SELECT * FROM `v_article` WHERE `lang` LIKE 'zh' ORDER BY `id` desc LIMIT 0,10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_article_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE (  meta_key='site_name' ) AND `lang` = 'zh' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_option` WHERE `meta_key` = 'meta' AND `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_product_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `v_product_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'QQ' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_page` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'support' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '11'  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'channel' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '10'  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'about' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '13'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 4 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 4 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000415s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 132 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 132 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 198 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 198 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002637s ]
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 49 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 61 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 68 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2015-06-02T11:58:55+08:00 ] 113.116.50.31 /index.php?s=/Article/Index/index/category/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `v_option` [ RunTime:0.0007s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'EMAIL' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'MOBILE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'PHONE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'ABOUT' AND `type` = 'index' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.008661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009079s ]
+SQL: SHOW COLUMNS FROM `v_article` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `v_article` WHERE `lang` LIKE 'zh' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: p /home/xiongjiang/www/App/Article/Controller/IndexController.class.php 第 32 行.
+SQL: SELECT * FROM `v_article` WHERE `lang` LIKE 'zh' ORDER BY `id` desc LIMIT 0,10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_article_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE (  meta_key='site_name' ) AND `lang` = 'zh' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_option` WHERE `meta_key` = 'meta' AND `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_product_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `v_product_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'QQ' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_page` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'support' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '11'  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'channel' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '10'  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'about' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '13'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 4 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 4 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000430s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 132 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 132 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 198 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 198 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002812s ]
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 49 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 61 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 68 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2015-06-02T11:58:57+08:00 ] 113.116.50.31 /index.php?s=/Article/Index/index/category/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `v_option` [ RunTime:0.0007s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'EMAIL' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'MOBILE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'PHONE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'ABOUT' AND `type` = 'index' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.008674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009095s ]
+SQL: SHOW COLUMNS FROM `v_article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `v_article_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh' AND `id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `v_article` WHERE `lang` LIKE 'zh' AND `category_id` LIKE '1' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: p /home/xiongjiang/www/App/Article/Controller/IndexController.class.php 第 32 行.
+SQL: SELECT * FROM `v_article` WHERE `lang` LIKE 'zh' AND `category_id` LIKE '1' ORDER BY `id` desc LIMIT 0,10   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE (  meta_key='site_name' ) AND `lang` = 'zh' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_option` WHERE `meta_key` = 'meta' AND `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_product_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `v_product_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'QQ' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_page` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'support' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '11'  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'channel' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '10'  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'about' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '13'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000384s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002492s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2015-06-02T11:59:04+08:00 ] 113.116.50.31 /index.php?s=/Article/Index/index/category/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `v_option` [ RunTime:0.0007s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'EMAIL' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'MOBILE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'PHONE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'ABOUT' AND `type` = 'index' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.009205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009648s ]
+SQL: SHOW COLUMNS FROM `v_article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `v_article_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh' AND `id` = 2  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `v_article` WHERE `lang` LIKE 'zh' AND `category_id` LIKE '2' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: p /home/xiongjiang/www/App/Article/Controller/IndexController.class.php 第 32 行.
+SQL: SELECT * FROM `v_article` WHERE `lang` LIKE 'zh' AND `category_id` LIKE '2' ORDER BY `id` desc LIMIT 0,10   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE (  meta_key='site_name' ) AND `lang` = 'zh' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_option` WHERE `meta_key` = 'meta' AND `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_product_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `v_product_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'QQ' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_page` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'support' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '11'  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'channel' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '10'  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'about' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '13'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000406s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002516s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Article/index.php 第 24 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2015-06-02T11:59:06+08:00 ] 113.116.50.31 /index.php?s=/Article/Index/index/category/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `v_option` [ RunTime:0.0009s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'EMAIL' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'MOBILE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'PHONE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'ABOUT' AND `type` = 'index' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.010793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011304s ]
+SQL: SHOW COLUMNS FROM `v_article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `v_article_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh' AND `id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `v_article` WHERE `lang` LIKE 'zh' AND `category_id` LIKE '1' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: p /home/xiongjiang/www/App/Article/Controller/IndexController.class.php 第 32 行.
+SQL: SELECT * FROM `v_article` WHERE `lang` LIKE 'zh' AND `category_id` LIKE '1' ORDER BY `id` desc LIMIT 0,10   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE (  meta_key='site_name' ) AND `lang` = 'zh' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_option` WHERE `meta_key` = 'meta' AND `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_product_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `v_product_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'QQ' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_page` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'support' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '11'  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'channel' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '10'  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'about' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '13'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000426s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002546s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2015-06-02T11:59:09+08:00 ] 113.116.50.31 /index.php?s=/Article/Index/single/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `v_option` [ RunTime:0.0007s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'EMAIL' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'MOBILE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'PHONE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'ABOUT' AND `type` = 'index' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.008504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008927s ]
+SQL: SHOW COLUMNS FROM `v_article_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+SQL: SHOW COLUMNS FROM `v_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `v_article` WHERE ( id='1' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_article_category` WHERE `id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE (  meta_key='site_name' ) AND `lang` = 'zh' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_option` WHERE `meta_key` = 'meta' AND `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_product_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `v_product_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'QQ' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_page` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'support' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '11'  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'channel' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '10'  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'about' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '13'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined index: path /home/xiongjiang/www/Theme/default/Public/Crumb.php 第 17 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000383s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002065s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002808s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2015-06-02T20:17:57+08:00 ] 113.116.50.31 /index.php?s=/Article/Index/index/category/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `v_option` [ RunTime:0.0007s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'EMAIL' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'MOBILE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'PHONE' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `lang` = 'zh' AND `meta_key` = 'ABOUT' AND `type` = 'index' LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.008529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009060s ]
+SQL: SHOW COLUMNS FROM `v_article` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `v_article` WHERE `lang` LIKE 'zh' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: p /home/xiongjiang/www/App/Article/Controller/IndexController.class.php 第 32 行.
+SQL: SELECT * FROM `v_article` WHERE `lang` LIKE 'zh' ORDER BY `id` desc LIMIT 0,10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_article_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+NOTIC: [8] Undefined index: sub_id /home/xiongjiang/www/App/Common/Common/function.php 第 185 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE (  meta_key='site_name' ) AND `lang` = 'zh' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_option` WHERE `meta_key` = 'meta' AND `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_product_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `v_product_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_article_category` WHERE `lang` = 'zh'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE `meta_key` = 'QQ' AND `type` = 'other' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `v_page` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'support' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '11'  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'channel' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '10'  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `v_page` WHERE `lang` = 'zh' AND `callcode` = 'about' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `v_page` WHERE `lang` = 'zh' AND `sub_id` = '13'  [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 4 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 4 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000406s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [8] Undefined index: childs /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 116 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 132 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 132 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 198 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Public/ArticleSiderbar.php 第 198 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002581s ]
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 49 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 61 行.
+NOTIC: [8] Undefined variable: currcategory /home/xiongjiang/www/Theme/default/Article/index.php 第 68 行.
+SQL: SELECT `meta_value` FROM `v_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+

@@ -1,0 +1,6 @@
+[ 2015-04-25T13:37:46+08:00 ] 127.0.0.1 /index.php?s=/%EF%BD%81%EF%BD%84%EF%BD%8D%EF%BD%89%EF%BD%8E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+ERR: Module can't be loaded:ａｄｍｉｎ
+

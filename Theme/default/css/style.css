@@ -1,0 +1,51 @@
+ 
+
+.color-006ea3{color:#006ea3}
+.color-91ef03{color:#91ef03}
+.container{ width: 1200px !important}
+.sider-top{ height: 120px;}
+.logo{width:400px; padding-top: 20px;}
+.search-area{ width:500px; padding-top: 30px;}
+.form-control{border:2px #B71D1D solid; height:36px; border-radius: 0px;}
+.btn-search{background-color: #B71D1D;  width:80px; height:36px; font-size: 18px; color:#fff}
+.btn-search:hover{color:#fff}
+.hot-search{color:#333;padding: 10px 0px; display: block; font-size: 12px;}
+.hot-search span{ margin-right: 10px}
+
+.nav-bg{ height:50px; background-color:#FF3B3C}
+.nav{ height:50px; }
+.all-category{ padding: 0px; width:200px; background-color: #C81624; height:100%; color:#fff; font-size:16px;}
+.all-category > span{ line-height: 50px;}
+.all-category-title{}
+.all-category-list{ position: relative; height: 470px;  border:1px #CA1524 solid;padding: 0px;z-index: 9999; background-color: #FFEADC;}
+.category-t{ line-height: 40px; font-size: 18px;color: #CA1524}
+.all-category-list .category{ border-bottom: 1px red solid}
+.category-s{ list-style: none; padding: 0px; margin: 0px; float: left;}
+.category-s li{ list-style: none; float: left; padding-right:10px; color: #000; font-size: 14px; line-height: 30px;}
+
+
+/*NAV MENU*/
+.nav-menu{ height: 50px; text-align: right;}
+.nav-menu ul{ list-style: none; margin-left: 80px; }
+.nav-menu ul li{ float: left; padding:12px 20px; }
+.nav-menu ul li:hover{}
+.nav-menu ul li a{color:#fff; font-size: 18px;}
+.nav-menu ul li a:hover{ text-decoration: none;}
+
+/*renqibang*/
+.hot-bang{ width: 300px; height: 470px; background-color: #fff;}
+.hot-bang ul{ padding: 0px; padding-top: 10px;list-style: none;}
+.hot-bang ul li{ border-bottom: 1px #dddddd dashed; font-size: 12px; padding:10px 0px;}
+.hot-bang ul .fisht{color: #FE6500; font-size: 14px; font-weight: 400}
+
+.hot-bang ul li .hot-title{ color:#0F89BE; ;}
+.hot-bang ul li .hot-author{ color:#aaa; float: right;}
+.hot-bang ul li a{ padding-top:10px;}
+
+
+
+.banner{ background-color: #F35C6D; height: 470px;}
+
+
+
+
